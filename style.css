@@ -10,11 +10,25 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  display: inline;
+  text-align: center;
+  border-bottom: 2px gray solid;
+  opacity: 0.5;
+}
+
 img {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
   width: 300px;
+}
+
+p {
+  padding: 30px;
+  font-size: 20px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  margin-bottom: 100px;
 }
 
 .main-list {
@@ -32,22 +46,8 @@ img {
   text-decoration: none;
 }
 
-h2 {
-  display: inline;
-  text-align: center;
-  border-bottom: 2px gray solid;
-  opacity: 0.5;
-}
-
 .title-home {
   text-align: center;
-}
-
-p {
-  padding: 30px;
-  font-size: 20px;
-  font-family: "Goudy Bookletter 1911", sans-serif;
-  margin-bottom: 100px;
 }
 
 .title-about {
