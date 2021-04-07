@@ -44,7 +44,6 @@ img {
   display: block;
   margin: 0 auto;
   margin-bottom: 70px;
-
   width: 250px;
 }
 
@@ -161,4 +160,25 @@ a.no-underline2:hover {
 
 #section4 {
   height: 300px;
+}
+
+@media (max-width: 870px) {
+  .media {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    padding-left: 0px;
+  }
+  nav {
+    padding-right: 0px;
+  }
+  #section0 {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 388px) {
+  #section0 {
+    margin-top: 40px;
+  }
 }
